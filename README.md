@@ -1,6 +1,8 @@
-# kdp2df
+# LeoBloom.py
 
-This script loops through Kindle Direct Publishing royalty report files and creates a single Pandas dataframe that has all your KDP data. Pandas is one of the most widely used data analysis libraries for Python and comes with a dizzying array of analytics & visualization tools.
+This script loops through Kindle Direct Publishing royalty and Lightning Source, Inc. (LSI) sales report files and turns them into Pandas dataframes that are then used to produce a wide variety of reports.
+
+Pandas is one of the most widely used data analysis libraries for Python and comes with a dizzying array of analytics & visualization tools.
 
 ## Requirements
 
@@ -14,11 +16,21 @@ This script loops through Kindle Direct Publishing royalty report files and crea
 
 2.  pip install -r requirements.txt
 
-3.  **Download KDP data files** from your KDP admin page to the directory kdpdata.  You want KDP > Reports > Prior Months' Royalties.  You don't need to rename the files.
+## Setup
+
+1.  **Download KDP data files** from your KDP admin page to the directory /kdpdata.  You want KDP > Reports > Prior Months' Royalties.  You don't need to rename the files.
+2.  **Download LSI data files** from LSI's mail delivery option to the directory /lsidata.
+3.  **Enter any direct sales in the spreadsheet** in the directory /directdata.
+4.  **Customize the file authordata/royaltied_authors.xlsx** with the information about your authors.
+5.  **Customize the file BIPtruth.csv** with the metadata for your list of titles.'
 
 ## Running the Script
 
-**python kdp2df.py**
+**python LeoBloom.py**
+
+A long series of reports will scroll across the console. In addition, various specialized reports are generated and stored in /reports.
+
+The various dataframes generated during creation of the program are saved in /results.  These can be very handy for troubleshooting and double-checking.
 
 ## About Exchange Rates
 
