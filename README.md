@@ -4,6 +4,8 @@ This script loops through Kindle Direct Publishing royalty and Lightning Source,
 
 Pandas is one of the most widely used data analysis libraries for Python and comes with a dizzying array of analytics & visualization tools.
 
+Leo Bloom is the name of the accountant played by Gene Wilder in "The Producers", whom Zero Mostel enlists in his insane scheme to make an unprofitable theatre production.
+
 ## Requirements
 
 1. Python > 3 and < 3.9 until pandas and matplotlib run reliably on Python 3.9 and above.
