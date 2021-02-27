@@ -1,0 +1,11 @@
+*.xlsx
+ltdseries.csv
+selected_titles_LT_sales.csv
+out.csv
+enhanced.csv
+ltdsales.csv
+frontlist.csv
+ltd.csv
+reports/
+lsidata/*
+kdpdata/*
